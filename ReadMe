@@ -1,0 +1,21 @@
+# herehack_S2_AtLine
+
+***************************************** Problem Statement *****************************************
+
+	End to end trip planner to Provide Application users with functionality to create a multiple-days and multiple locations trip
+	 with best of routes and POIs suggestions
+
+***************************************** Proposed Solution *****************************************
+
+	To make an application just like our normal google map which would be easy to operate, and we can manage/add checkpoints
+	on the way between and manage our bookings and other destinations and stops within the same application.
+
+
+***************************************** Technology Stack *****************************************
+
+	1. Here Route Planner Solution
+	2. Here Studio
+	3. API Services
+	4. Here SDK
+	5. Android Studio
+	6. javascript
