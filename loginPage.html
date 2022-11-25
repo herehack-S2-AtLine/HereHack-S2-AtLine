@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/loginPage.css">
+    <title>Atline</title>
+</head>
+
+<body>
+
+    <img src="img/AtlineLogo.svg" id="loginPage_AtlineLogo">
+    <div id="Login_form_div">
+
+        <h1 class="loginPage_welcome_text">Welcome</h1>
+
+        <form action="/" method="post">
+            <input 
+            type="email"
+            name="email"
+            placeholder="Email Address"
+            id="loginPage_email_input"
+            />
+
+            <input 
+            type="password"
+            name="password"
+            placeholder="Password"
+            id="loginPage_password_input"
+            />
+
+            <input type="submit"
+            placeholder="Login"
+            id="loginPage_button"
+            value="Login"
+            / >
+            
+            <label id="loginPage_checkbox_text"> 
+                Remember me
+            </label>
+            <input type="checkbox" id="loginPage_checkbox">
+           
+         
+            <div id="loginPage_line"></div>
+            
+            <p  id="loginPage_Sign_button">
+                Aleardy have an acoount ?
+                <a href="/SignIn" style="color:white ;">Sign up -> </a>
+            </p>
+           
+            
+           
+        </form>
+
+
+
+    </div>
+
+</body>
+
+</html>
